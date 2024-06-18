@@ -1,36 +1,38 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Comet Bot",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/Comet Logo Flipped.png",
+    "light": "/logo/Comet Logo Flipped.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#FFA500",
+    "light": "#FFA500",
+    "dark": "#FFA500",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FFA500",
+      "to": "#FFA500"
     }
   },
   "topbarLinks": [
     {
+      "name": "Website",
+      "url": "https://app.cometbot.xyz"
+    },
+    {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://support.cometbot.xyz"
+    },
+    {
+      "name": "Status",
+      "url": "https://status.cometbot.xyz"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://dashboard.cometbot.xyz"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
       "name": "Documentation",
@@ -40,7 +42,7 @@
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.gg/mu2bEaDAPy"
     },
     {
       "name": "Blog",
@@ -67,25 +69,6 @@
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+  ]
 }
